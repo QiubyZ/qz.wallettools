@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:gravity="center"
+        android:id="@+id/about"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:textColor="#e2e39f42"
+        android:textIsSelectable="true"
+        android:textSize="50dp"/>
+    
+    <LinearLayout
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        
+        <EditText
+            android:hint="Input Pharase"
+            android:id="@+id/input"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        
+        <Button
+            android:id="@+id/submit"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Check"/>
+        
+        <TextView
+            android:hint="Result Pharase"
+            android:id="@+id/view"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="#e2e39f42"
+            android:textIsSelectable="true"/>
+        
+    
+    </LinearLayout>
+    
+
+</LinearLayout>
